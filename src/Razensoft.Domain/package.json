@@ -1,0 +1,9 @@
+{
+  "name": "com.razensoft.domain",
+  "displayName": "Razensoft.Domain",
+  "version": "1.0.0",
+  "unity": "2018.4",
+  "description": "DDD library for C# and Unity",
+  "license": "MIT"
+}
+

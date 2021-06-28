@@ -16,13 +16,13 @@ Differences between **Razensoft.Domain** (1.0.0) and **CSharpFunctionalExtension
 
 ## Installation
 
-Add this line to your `manifest.json` file:
+There are several ways to install this library into our project:
 
-```
-"com.razensoft.functional": "https://github.com/Razenpok/Razensoft.Domain.git?path=src/Razensoft.Domain#1.0.0",
-```
-
-UPM should automatically install the package.
+- **Plain install**: Clone or [download](https://github.com/Razenpok/Razensoft.Domain/archive/master.zip) this repository and put it somewhere in your Unity project
+- **Unity Package Manager (UPM)**: Add the following line to *Packages/manifest.json*:
+  - `"com.razensoft.domain": "https://github.com/Razenpok/Razensoft.Domain.git?path=src/Razensoft.Domain#1.0.0",`
+- **[OpenUPM](https://openupm.com)**: After installing [openupm-cli](https://github.com/openupm/openupm-cli), run the following command:
+  - `openupm add com.razensoft.domain`
 
 ## Contributors
 A big thanks to the project author, [Vladimir Khorikov](https://github.com/vkhorikov), and to all of the contributors of the original project. Again, [don't forget to check it out](https://github.com/vkhorikov/CSharpFunctionalExtensions)!
